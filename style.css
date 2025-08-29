@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100svh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(255, 109, 134);
+    height: 4rem;
+    color: whitesmoke;
+}
+
+header ul {
+    display: flex;
+    gap: 3rem;
+
+    list-style: none;
+ 
+    li:hover {
+        transform:scale(1.1);
+    }
+
+    a {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+}
